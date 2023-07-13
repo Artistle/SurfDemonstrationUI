@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_background_color"
+    android:orientation="vertical"
+    android:gravity="center">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error_text_main"
+        android:textColor="@color/main_text_color"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error_text_secondary"
+        android:textColor="@color/secondary_text_color"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_marginTop="16dp"
+        app:strokeColor="@color/selected_text_color"
+        app:cornerRadius="8dp"
+        android:text="@string/update"
+        android:textColor="@color/selected_text_color"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

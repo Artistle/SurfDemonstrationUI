@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SurfDemostrationUI</string>
+    <string name="projects_surf">Проекты Surf</string>
+    <string name="to_employees">Сотрудникам</string>
+    <string name="about_app">О пиложении</string>
+    <string name="hello_emoji">Привет, \n%1$s 👋</string>
+    <string name="error_text_main">Oops...Что-то пошло не так</string>
+    <string name="error_text_secondary">Пожалуйста, повторите попытку</string>
+    <string name="update">Обновить</string>
+    <string name="team_is_empty">Команда не собрана</string>
+</resources>
